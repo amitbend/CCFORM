@@ -1,0 +1,24 @@
+{
+  "name": "fng-ui-date",
+  "version": "0.6.0",
+  "author": "Mark Chapman <support@forms-angular.org>",
+  "description": "Angular UI date plugin for forms-angular.  Doesn't do anything apart from drag in components.",
+  "main": "fng-ui-date.js",
+  "keywords": [
+    "forms-angular"
+  ],
+  "license": "MIT",
+  "homepage": "www.forms-angular.org",
+  "dependencies": {
+    "jquery": ">=1.8",
+    "jquery-ui": "1",
+    "angular-ui-date": ">=0.0.7"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

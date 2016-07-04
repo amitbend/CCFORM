@@ -1,0 +1,46 @@
+{
+  "name": "fng-jq-upload",
+  "version": "0.6.0",
+  "author": "Mark Chapman <support@forms-angular.org>",
+  "description": [
+    "jQuery file upload plugin for forms-angular, storing data in Mongo",
+    "**NOTE** If you are using wiredep you do not need all of the files in blueinp-file-upload bower.json.main.  You should exclude jquery.fileupload-ui.js, jquery.fileupload-jquery-ui.js"
+  ],
+  "main": [
+    "dist/fng-jq-upload.js",
+    "css/override-blueimp.css"
+  ],
+  "keywords": [
+    "forms-angular",
+    "upload"
+  ],
+  "license": "MIT",
+  "homepage": "www.forms-angular.org",
+  "dependency-comments": "https://github.com/blueimp/jQuery-File-Upload/commit/4f0f7a63c50dadb5f8be2f006a9d3456b73d3c6e means we need to stick at 9.10.5 or work around (which I have no time for atm)",
+  "dependencies": {
+    "blueimp-file-upload": "9.10.5",
+    "blueimp-gallery": ">=2"
+  },
+  "ignore": [
+    "**/.*",
+    "app",
+    "templates",
+    "generated",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular": "1.3.16",
+    "angular-mocks": "1.3.16",
+    "forms-angular": "*"
+  },
+  "_release": "0.6.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.6.0",
+    "commit": "0ed13d6b5ac96f52a836dd23b1d3423d80b3ecf8"
+  },
+  "_source": "https://github.com/forms-angular/fng-jq-upload.git",
+  "_target": "*",
+  "_originalSource": "fng-jq-upload"
+}

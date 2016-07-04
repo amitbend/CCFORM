@@ -1,0 +1,48 @@
+{
+  "name": "fng-jq-upload",
+  "version": "0.6.0",
+  "author": "Mark Chapman <support@forms-angular.org>",
+  "description": "jQuery file upload plugin for forms-angular, storing data in Mongo.  Pretty much a wrapper for BlueImp jquery-file-upload",
+  "dependencies": {
+    "bson": "^0.4.6",
+    "gridform": "^0.1.7",
+    "gridfs-stream": "^1.1",
+    "imagemagick-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "async": "~0.2",
+    "body-parser": "^1.13.1",
+    "express": ">=4.0",
+    "forms-angular": "latest",
+    "grunt": "~0.4.2",
+    "grunt-angular-templates": "^0.5.4",
+    "grunt-bump-build-git": "~1.1.1",
+    "grunt-contrib-concat": ">=0.4.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": ">=0.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.5",
+    "mongoose": "~3.8",
+    "supertest": "^1.0.1",
+    "karma": "~0.12.37",
+    "jasmine-core": "~2.3.4",
+    "karma-jasmine": "~0.3.5",
+    "phantomjs": "~1.9.17",
+    "karma-phantomjs-launcher": "~0.2.0",
+    "karma-ng-html2js-preprocessor": "~0.1.2",
+    "karma-junit-reporter": "~0.2.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forms-angular/fng-jq-upload"
+  },
+  "keywords": [
+    "forms-angular",
+    "mongoose",
+    "file upload",
+    "upload",
+    "uploader"
+  ],
+  "license": "MIT"
+}

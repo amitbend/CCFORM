@@ -1,0 +1,25 @@
+{
+  "name": "fng-select2",
+  "version": "0.4.1",
+  "author": "Mark Chapman <support@forms-angular.org>",
+  "description": "select2 plugin for forms-angular.  Doesn't do anything apart from drag in components.",
+  "main": "fng-select2.css",
+  "keywords": [
+    "forms-angular"
+  ],
+  "license": "MIT",
+  "homepage": "www.forms-angular.org",
+  "dependencies": {
+    "jquery": ">=1.8",
+    "angular-ui-select2": "0.0.4",
+    "select2": "3.4.3",
+    "select2-bootstrap-css": ">=1.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

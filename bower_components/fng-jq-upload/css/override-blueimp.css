@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.fileinput-button input {
+    position: absolute;
+    opacity: 0;
+}
+.fileinput-button span {
+    display: inline;
+}
+.fileinput-button i,
+.fileupload-buttonbar .delete,
+.fileupload-buttonbar .toggle {
+    display: inline-block;
+}
+
+.overlay-btn {
+    position: relative;
+    top: 0px;
+    left: -24px;
+    width: 24px;
+    height: 24px;
+    background: white;
+    padding-top: 3px;
+    border: 0;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    opacity: 0.95;
+    z-index: 2;
+}
+
+.file-delete-div {
+    min-height: 24px;
+    min-width: 24px;
+}
